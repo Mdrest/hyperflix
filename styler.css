@@ -21,7 +21,7 @@ body {
     height: 400px;
     position: relative;
     top: 100px;
-    left: 750px;
+    left: 950px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -64,7 +64,7 @@ body {
     height: 40px;
     margin-top: 10px;
     background-color: aqua;
-    border: 3px solid black;
+    border: 2px solid black;
     border-radius: 20px;
     font-size: 17px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -131,12 +131,14 @@ body {
     }
 
     .input {
-        width: 200px;
+        width: 150px;
         margin-top: 10px;
     }
 
     .button {
-        width: 200px;
+        width: 150px;
+        height: 1cm;
+        margin-top: 0px;
     }
 
    .texto{font-size: 20px;}
@@ -150,6 +152,11 @@ body {
         width: 250px;
         height: 300px;
         top: 150px;
-        left: -65px;
+        left: 55px;
+    }
+    .creditos{
+        width: 50px;
+        height: 20px;
+        top: 50px;
     }
 }
