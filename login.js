@@ -4,9 +4,9 @@ function logar() {
     var senha = document.getElementById('senha').value;
     var erro1 = document.getElementById('erro-de-login');
 
-    if (nome == "mdrest" && senha == "matheus15" || nome == "admin" && senha == "admin") {
+    if (nome == "mdrest" && senha == "matheus15" ) {
 
-        location.href = "test.html";
+        location.href = "";
     } else {
         erro1.innerHTML = ('senha ou nome estao incorretos :(')
       
