@@ -1,5 +1,5 @@
 body {
-    background-color:#000000;
+    background-color: #000000;
     background-repeat: no-repeat;
     background-size: 1490px;
     display: flex;
@@ -10,8 +10,10 @@ body {
 
 
 .imagem {
+    position: relative;
     width: 140px;
-    height: 40px;
+    height: 50px;
+    top: -5px;
 
 
 }
@@ -144,12 +146,14 @@ body {
         margin-top: 0px;
     }
 
-   .texto{font-size: 20px;}
+    .texto {
+        font-size: 20px;
+    }
 
-   .box-login::before{
-    width: 245px;
-    height: 297px;
-   }
+    .box-login::before {
+        width: 245px;
+        height: 297px;
+    }
 
     .box-login {
         width: 250px;
@@ -157,33 +161,64 @@ body {
         top: 150px;
         left: 55px;
     }
-    .creditos{
+
+    .creditos {
         width: 50px;
         height: 20px;
         top: 50px;
-       
+
     }
-    .texto{
+
+    .texto {
         animation: rgb 3s linear infinite;
         animation-delay: 0ms;
     }
 
 
-    @keyframes rgb{
+    @keyframes rgb {
 
-        0%{color: rgb(255, 0, 0);}
+        0% {
+            color: rgb(255, 0, 0);
+        }
 
-        10%{color: rgb(152, 0, 212);}
-     
-         20%{color: gold;}
+        10% {
+            color: rgb(152, 0, 212);
+        }
 
-         30%{color: aqua;}
-         
-         50%{color: mintcream;}
+        20% {
+            color: gold;
+        }
 
-         50%{color: rgb(0, 51, 255);}
-         
-         100%{color: orangered;}
-        
+        30% {
+            color: aqua;
+        }
+
+        50% {
+            color: mintcream;
+        }
+
+        50% {
+            color: rgb(0, 51, 255);
+        }
+
+        100% {
+            color: orangered;
+        }
+
     }
+}
+
+.escrever {
+    position: relative;
+    color: white;
+    top: 5cm;
+    font-size: 25px;
+    left: -450px;
+
+}
+
+.dec{
+    position: relative;
+    left: -700px;
+    top: 300px;
 }
